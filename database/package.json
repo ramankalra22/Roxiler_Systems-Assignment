@@ -1,0 +1,14 @@
+{
+  "name": "store-rating-db-tools",
+  "version": "1.0.0",
+  "description": "Database migration and seed tools",
+  "scripts": {
+    "migrate": "node migrate.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.8"
+  }
+}
